@@ -1,0 +1,123 @@
+.detalle-back {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-bottom: 32px;
+    transition: all 0.2s;
+}
+
+.detalle-back:hover {
+    color: var(--text);
+    border-color: rgb(113, 118, 123);
+    background: var(--surface);
+}
+
+.detalle-card {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 40px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    overflow: hidden;
+    max-width: 800px;
+}
+
+.detalle-emoji {
+    font-size: 96px;
+    background: var(--surface2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+}
+
+.detalle-info {
+    padding: 40px 40px 40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    justify-content: center;
+}
+
+.detalle-categoria {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--accent);
+    font-weight: 600;
+}
+
+.detalle-nombre {
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: var(--text);
+}
+
+.detalle-descripcion {
+    color: var(--text-muted);
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+.detalle-precio-row {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    margin-top: 16px;
+}
+
+.detalle-precio {
+    font-family: 'Syne', sans-serif;
+    font-size: 29px;
+    font-weight: 800;
+    color: var(--text);
+    letter-spacing: -0.03em;
+}
+
+.detalle-cta {
+    background: var(--accent);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 11px 22px;
+    border-radius: 999px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+
+.detalle-cta:hover {
+    background: rgb(26, 140, 217);
+    transform: translateY(-2px);
+}
+
+.detalle-error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 64px;
+    text-align: center;
+    color: var(--text-muted);
+}
+
+.detalle-error span { font-size: 48px; }
+
+.detalle-error button {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 10px 19px;
+    border-radius: 8px;
+    transition: all 0.2s;
+}
+
+.detalle-error button:hover {
+    border-color: rgb(113, 118, 123);
+    color: var(--text);
+}
